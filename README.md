@@ -1,6 +1,6 @@
 # firebase-emulator-setup
 
-POC showing a working Firestore Emulator working in conjunction with Firebase Functions.
+POC showing a Firestore Emulator working in conjunction with Firebase Functions.
 
 1. Install the deps: `npm i && cd functions && npm i`
 1. Run the emulators: `npm run serve`
