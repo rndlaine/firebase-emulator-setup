@@ -6,6 +6,10 @@ const config = require('./config')
 firebase.initializeApp(config);
   
 var db = firebase.firestore();
+db.settings({
+  host: 'localhost:8080',
+  ssl: false
+})
 
 db.collection("users").add({
   first: "Ada",
